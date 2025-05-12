@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Preguntados - Docker Compose</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+        h1 { color: #444; }
+        .question { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        button { margin: 5px; padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Preguntados: Proyecto con Docker Compose</h1>
+    
+    <div class="question">
+        <p>🧱 ¿Qué comando se usa para levantar todos los contenedores?</p>
+        <button onclick="alert('Correcto!')">docker-compose up</button>
+        <button onclick="alert('Incorrecto')">docker run</button>
+        <button onclick="alert('Incorrecto')">docker start</button>
+    </div>
+
+    <div class="question">
+        <p>🔌 ¿Qué servicio permite visualizar MongoDB?</p>
+        <button onclick="alert('Incorrecto')">Mongo CLI</button>
+        <button onclick="alert('Correcto!')">Mongo Express</button>
+        <button onclick="alert('Incorrecto')">Robo 3T</button>
+    </div>
+
+    <div class="question">
+        <p>⚙️ ¿A qué puerto local se expone Flask?</p>
+        <button onclick="alert('Correcto!')">8080</button>
+        <button onclick="alert('Incorrecto')">5000</button>
+        <button onclick="alert('Incorrecto')">27017</button>
+    </div>
+
+    <div class="question">
+        <p>💡 ¿Qué archivo define la configuración de servicios en Docker Compose?</p>
+        <button onclick="alert('Correcto!')">docker-compose.yml</button>
+        <button onclick="alert('Incorrecto')">Dockerfile</button>
+        <button onclick="alert('Incorrecto')">compose.json</button>
+    </div>
+
+    <div class="question">
+        <p>📦 ¿Cuál es la base de datos utilizada en el proyecto?</p>
+        <button onclick="alert('Correcto!')">MongoDB</button>
+        <button onclick="alert('Incorrecto')">MySQL</button>
+        <button onclick="alert('Incorrecto')">PostgreSQL</button>
+    </div>
+</body>
+</html>
